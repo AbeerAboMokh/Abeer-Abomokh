@@ -1,23 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../static/Styles.css">
     <title>Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../static/function.js"></script>
 </head>
+
 <body>
-    <header><b>PuzzleShop</b></header>
-    <h1>Online Shop Puzzle</h1>
-    <img src="../static/puzzle.jpg" height="452" width="600"> 
-    <p>
-        <p><b>Sale!Sale!Sale!</b> 50% discount.</p>
-        <p> Puzzle game sharpens the ability to find solutions to problems.</p>
-        
+
+    <div class="conhad">
+
+
+        <div class="num1">Home-page</div>
+
+        <div class="num2">
+            <nav>
+                <ul>
+                    <li><a href="Home-Page.html">Home Page</a></li>
+                    <li><a href="./Connection.html">Connection</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- <nav>
+        <ul>
+        <li><a href="Home-Page.html">Home Page</a></li>
+        <li><a href="./Connection.html">Connection</a></li>
+      </ul>
+     </nav> -->
+
+        <div class="num3">
+            <button id="button" onclick="typeWriter() ">Click here Please :)</button>
+        </div>>
+
+    </div>
+
+
+    <div class="home-page-container">
+
+        <header>
+            <img class="logo" src="../static/logo.jpg">
+            <a class="cta" href="Connection.html" target="_blank">
+                <button>Contact</button></a>
+            <p id="demo"></p>
+        </header>
+
+        <h1 class="title">Online Puzzle Shop</h1>
+
+        <div class="home-page__img">
+            <img src="../static/puzzle.jpg" height="452" width="600">
+        </div>
+        <!-- <img src="../static/puzzle.jpg" height="452" width="600"> -->
+        <p>
+        <p class=" Sale"><b>Sale!Sale!Sale!</b> 50% discount.</p>
+        <p class="qt"> Puzzle game sharpens the ability to find solutions to problems.</p>
+
         <!--new element-->
-        <ruby>
-           <rp>(</rp><rt>Puzzle game sharpens the ability to find solutions to problems</rt><rp>)</rp>   
-        </ruby>
-       <p><b>Click here</b> To order :<a href="Connection.html" target="_blank" > Content</a></p> 
-    </p>
+        <!-- <ruby>
+            <rp>(</rp>
+            <rt>Puzzle game sharpens the ability to find solutions to problems</rt>
+            <rp>)</rp>
+        </ruby> -->
+
+
+
+
+    </div>
 </body>
+</div>
+
 </html>
